@@ -139,7 +139,7 @@ exports.deleteBlogController = async (req, res) => {
     console.log(error);
     return res.status(400).send({
       success: false,
-      message: "Erorr WHile Deleteing BLog",
+      message: "Erorr While Deleteing BLog",
       error,
     });
   }
