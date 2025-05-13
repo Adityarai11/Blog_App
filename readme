@@ -1,18 +1,18 @@
-# 📓 Blogly
+📓 Blogly
 
-**Blogly** is a full-stack blog application built with the MERN stack (MongoDB, Express, React, Node.js). It features user authentication using JWT, allowing users to register, log in, create, edit, and delete blog posts securely.
+Blogly is a full-stack blog application built with the MERN stack (MongoDB, Express, React, Node.js). It features user authentication using JWT, allowing users to register, log in, create, edit, and delete blog posts securely.
 
-## 🔧 Tech Stack
+🔧 Tech Stack
 
-* **Frontend**: React, Axios, Tailwind CSS (or your preferred styling framework)
-* **Backend**: Node.js, Express.js
-* **Database**: MongoDB, Mongoose
-* **Authentication**: JWT (JSON Web Tokens)
-* **Other Tools**: dotenv, bcryptjs, CORS
+* Frontend: React, Axios, Tailwind CSS (or your preferred styling framework)
+* Backend: Node.js, Express.js
+* Database: MongoDB, Mongoose
+* Authentication: JWT (JSON Web Tokens)
+* Other Tools: dotenv, bcryptjs, CORS
 
 ---
 
-## 🚀 Features
+ 🚀 Features
 
 * User registration and login with JWT authentication
 * Protected routes for creating/editing/deleting posts
@@ -22,17 +22,17 @@
 
 ---
 
-## 📁 Folder Structure
+ 📁 Folder Structure
 
 ```
 blogly/
-├── client/             # React frontend
+├── client/              React frontend
 │   ├── src/
 │   │   ├── components/
 │   │   ├── pages/
 │   │   ├── App.js
 │   │   └── index.js
-├── server/             # Node/Express backend
+├── server/              Node/Express backend
 │   ├── controllers/
 │   ├── models/
 │   ├── routes/
@@ -43,7 +43,7 @@ blogly/
 
 ---
 
-## 🔐 Authentication Flow
+ 🔐 Authentication Flow
 
 1. User registers → server hashes password using bcrypt → token is generated via JWT.
 2. On login, token is returned and stored on the client (e.g. in `localStorage`).
@@ -51,15 +51,15 @@ blogly/
 
 ---
 
-## 🛠️ Installation
+ 🛠️ Installation
 
-### Prerequisites
+ Prerequisites
 
 * Node.js
 * MongoDB
 * npm or yarn
 
-### Backend Setup
+ Backend Setup
 
 ```bash
 cd server
@@ -80,7 +80,7 @@ Start the backend:
 npm run dev
 ```
 
-### Frontend Setup
+ Frontend Setup
 
 ```bash
 cd client
@@ -90,16 +90,16 @@ npm start
 
 ---
 
-## 📬 API Endpoints
+ 📬 API Endpoints
 
-### Auth
+ Auth
 
 | Method | Endpoint           | Description               |
 | ------ | ------------------ | ------------------------- |
 | POST   | /api/v1/user/register | Register a new user       |
 | POST   | /api/v1/user/login    | Login user and return JWT |
 
-### Posts
+ Posts
 
 | Method | Endpoint        | Description                       |
 | ------ | --------------- | --------------------------------- |
