@@ -1,8 +1,8 @@
-📓 Blogly
+# 📓 Blogly
 
 Blogly is a full-stack blog application built with the MERN stack (MongoDB, Express, React, Node.js). It features user authentication using JWT, allowing users to register, log in, create, edit, and delete blog posts securely.
 
-🔧 Tech Stack
+## 🔧 Tech Stack
 
 * Frontend: React, Axios, Tailwind CSS (or your preferred styling framework)
 * Backend: Node.js, Express.js
@@ -10,9 +10,7 @@ Blogly is a full-stack blog application built with the MERN stack (MongoDB, Expr
 * Authentication: JWT (JSON Web Tokens)
 * Other Tools: dotenv, bcryptjs, CORS
 
----
-
- 🚀 Features
+## 🚀 Features
 
 * User registration and login with JWT authentication
 * Protected routes for creating/editing/deleting posts
@@ -20,11 +18,9 @@ Blogly is a full-stack blog application built with the MERN stack (MongoDB, Expr
 * RESTful API architecture
 * Timestamps and author info for each blog post
 
----
+##📁 Folder Structure
 
- 📁 Folder Structure
-
-```
+```bash
 blogly/
 ├── client/              React frontend
 │   ├── src/
@@ -41,9 +37,9 @@ blogly/
 │   ├── server.js
 ```
 
----
 
- 🔐 Authentication Flow
+
+##🔐 Authentication Flow
 
 1. User registers → server hashes password using bcrypt → token is generated via JWT.
 2. On login, token is returned and stored on the client (e.g. in `localStorage`).
@@ -51,7 +47,7 @@ blogly/
 
 ---
 
- 🛠️ Installation
+ ##🛠️ Installation
 
  Prerequisites
 
@@ -80,7 +76,7 @@ Start the backend:
 npm run dev
 ```
 
- Frontend Setup
+Frontend Setup
 
 ```bash
 cd client
@@ -88,9 +84,7 @@ npm install
 npm start
 ```
 
----
-
- 📬 API Endpoints
+##📬 API Endpoints
 
  Auth
 
@@ -109,3 +103,6 @@ npm start
 | PUT    | /api/v1/blog/update | Update post *(auth required)*     |
 | DELETE | /api/v1/blog/delete | Delete post *(auth required)*     |
 
+
+## 👤 Author
+Created by Aditya Rai
